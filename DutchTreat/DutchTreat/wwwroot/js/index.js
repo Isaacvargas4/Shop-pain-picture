@@ -1,11 +1,28 @@
-﻿
+﻿$(document).ready(() => {
 
-let theForm = document.getElementById("theForm");
-console.log(theForm)
-theForm.hidden = true
+    let theForm = $("#theForm");
+    theForm.hide();
 
-let button = document.getElementById("buyButton")
+    let button = $("#buyButton");
 
-button.addEventListener("click", () => theForm.hidden = false)
+    button.on("click", () => console.log(' buying paintin '));
+
+    let productInfo = $(".product-props li");
+
+    productInfo.on("click", function () {
+        console.log(` You clicked on ${this.innerText} `)
+
+    });
+
+    let $LoginToggle = $("#loginToggle");
+    let $popupForm = $(".popup-form");
+
+    $LoginToggle.on("click", function () {
+        console.log('hide the login')
+        $popupForm.slideToggle(500);
+    });
+
+});
+
 
 

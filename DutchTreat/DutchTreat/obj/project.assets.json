@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ivargas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\isaac vargas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivargas\\Documents\\asp.net\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectUniqueName": "C:\\Users\\isaac vargas\\Documents\\projects\\Shop-pain-picture\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
       "projectName": "DutchTreat",
-      "projectPath": "C:\\Users\\ivargas\\Documents\\asp.net\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
-      "packagesPath": "C:\\Users\\ivargas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivargas\\Documents\\asp.net\\DutchTreat\\DutchTreat\\obj\\",
+      "projectPath": "C:\\Users\\isaac vargas\\Documents\\projects\\Shop-pain-picture\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "packagesPath": "C:\\Users\\isaac vargas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isaac vargas\\Documents\\projects\\Shop-pain-picture\\DutchTreat\\DutchTreat\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ivargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\isaac vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
