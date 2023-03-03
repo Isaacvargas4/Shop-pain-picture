@@ -1,4 +1,12 @@
-﻿body {
+﻿/**/
+
+.navMenu {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/*body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #a4f1f8
 }
@@ -15,9 +23,9 @@ input, textarea{
 label {
     font-size: 16px
 }
-
+    s
 .formBackGround {
-    background-color: #60A5AB;
+    background-color: #60A5AB;ssssssssss
     color: white;
     padding: 5px;
 }
@@ -80,3 +88,4 @@ menu li::after {
 menu li:last-of-type::after {
     content: "";
 }
+*/

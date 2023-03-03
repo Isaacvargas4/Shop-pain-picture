@@ -18,6 +18,7 @@ namespace DutchTreat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IMailService, NullMailService>();
+            services.AddMvc();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
