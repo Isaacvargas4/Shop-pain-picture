@@ -15,14 +15,24 @@ namespace DutchTreat
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+
+
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DutchContext>();
+            services.AddDbContext<DutchContext>(
+                cfg =>
+            {
+                cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
+            }
+            );
             services.AddTransient<IMailService, NullMailService>();
+            services.AddTransient<DutchSeeder>();
+
+            services.AddScoped<IDutchRepository, DutchRepository>();
+
             services.AddMvc();
-            services.AddControllersWithViews();
+
+
             services.AddRazorPages();
         }
 
