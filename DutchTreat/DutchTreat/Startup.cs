@@ -20,10 +20,10 @@ namespace DutchTreat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DutchContext>(
-                cfg =>
-            {
-                cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
-            }
+            //    cfg =>
+            //{
+            //    cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
+            //}
             );
             services.AddTransient<IMailService, NullMailService>();
             services.AddTransient<DutchSeeder>();
@@ -33,7 +33,7 @@ namespace DutchTreat
             services.AddMvc();
 
 
-            services.AddRazorPages();
+            //services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

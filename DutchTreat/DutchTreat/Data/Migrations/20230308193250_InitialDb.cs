@@ -72,6 +72,11 @@ namespace DutchTreat.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Orders",
+                columns: new[] { "Id", "OrderDate", "OrderNumber" },
+                values: new object[] { 1, new DateTime(2023, 3, 8, 19, 32, 50, 490, DateTimeKind.Utc).AddTicks(7677), "12345" });
+
             migrationBuilder.CreateIndex(
                 name: "IX_OrderItem_OrderId",
                 table: "OrderItem",

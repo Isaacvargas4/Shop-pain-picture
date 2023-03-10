@@ -30,7 +30,8 @@ namespace DutchTreat.Data
 
             if (!_ctx.Products.Any())
             {
-                var filePath = Path.Combine(_env.ContentRootPath, "Data/art.json");
+                //var filePath = Path.Combine(_env.ContentRootPath, "/Data/art.json");
+                var filePath = "C:/Users/ivargas/Source/Repos/Isaacvargas4/Shop-pain-picture/DutchTreat/DutchTreat/Data/art.json";
                 var json = File.ReadAllText(filePath);
                 var products = JsonSerializer.Deserialize<IEnumerable<Product>>(json);
 

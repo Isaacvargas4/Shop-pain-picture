@@ -1,7 +1,13 @@
 {
 
   "ConnectionStrings": {
-    "DutchContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
-  }
+    "DutchContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=DutchTretDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
+  },
+  "Loggin": {
+    "LogLevel": {
 
+      "Default": "Information",
+      "Microsoft":  "Warning"
+    }
+  }
 }
